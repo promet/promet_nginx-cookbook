@@ -1,4 +1,4 @@
-# promet_nginx-cookbook cookbook
+# promet_nginx cookbook
 
 # Requirements
 

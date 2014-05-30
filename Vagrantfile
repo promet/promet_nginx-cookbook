@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
-  config.vm.hostname = "promet-nginx-cookbook-berkshelf"
+  config.vm.hostname = "promet-nginx-berkshelf"
   config.omnibus.chef_version = :latest
 
   #config.vm.synced_folder ".", "/home/vagrant/kirkberk", :nfs => true
@@ -107,7 +107,7 @@ Vagrant.configure("2") do |config|
         "recipe[php::module_gd]",
         "recipe[php::module_curl]",
         "recipe[promet_php::module_apc]",
-        "recipe[promet_nginx-cookbook]",
+        "recipe[promet_nginx]",
         "recipe[promet_php::php-fpm]",
         "recipe[promet_mysql-cookbook]",
         "recipe[promet_mysql-cookbook::mytop]",

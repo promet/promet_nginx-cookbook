@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: promet_nginx-cookbook
+# Cookbook Name:: promet_nginx
 # Recipe:: default
 #
 # Copyright (C) 2013 YOUR_NAME
